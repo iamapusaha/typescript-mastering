@@ -5,7 +5,7 @@ const x: undefined = undefined;
 const y: null = null;
 
 //any data type
-let d;
+let d: string;
 d = 45566;
 d = "my ex";
 d = true;
