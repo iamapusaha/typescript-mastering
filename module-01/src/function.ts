@@ -15,3 +15,8 @@ const richUser = {
 };
 const ful = richUser.addBalance(2566);
 console.log(ful);
+
+const arr: number[] = [10, 20, 30, 40, 50];
+
+const newArray: number[] = arr.map((e: number): number => e * e);
+console.log(newArray);
