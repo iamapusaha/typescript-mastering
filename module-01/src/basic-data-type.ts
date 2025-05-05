@@ -13,7 +13,10 @@ d = "my ex";
 // d = null;
 
 const friends: string[] = ["apple", "komla", "angor"];
-friends.push(450);
+// friends.push(450);
 
 const trueFalse = [true, false, true, false];
-trueFalse.push("hello man");
+// trueFalse.push("hello man");
+
+const friendsList: [string, string, string] = ["batas", "Akash", "sakib"];
+friendsList[0] = "5555";
