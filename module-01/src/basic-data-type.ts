@@ -6,8 +6,14 @@ const y: null = null;
 
 //any data type
 let d: string;
-d = 45566;
+// d = 45566;
 d = "my ex";
-d = true;
-d = undefined;
-d = null;
+// d = true;
+// d = undefined;
+// d = null;
+
+const friends: string[] = ["apple", "komla", "angor"];
+friends.push(450);
+
+const trueFalse = [true, false, true, false];
+trueFalse.push("hello man");
