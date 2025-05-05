@@ -23,8 +23,10 @@ friendsList[0] = "5555";
 
 const customerName: {
   firstName: string;
+  middleName?: string;
   lastName: string;
 } = {
   firstName: "Apu",
+
   lastName: "saha",
 };
