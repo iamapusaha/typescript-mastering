@@ -35,4 +35,4 @@ const customer: {
 };
 
 // customer.company = "apple";
-customer.position = "digital marketer";
+// customer.position = "digital marketer";
