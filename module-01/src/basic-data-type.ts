@@ -23,10 +23,11 @@ friendsList[0] = "5555";
 
 const customerName: {
   firstName: string;
-  middleName?: string;
+  middleName?: string; //optional type
   lastName: string;
+  company: "mash connect"; //type ---> literal types
 } = {
   firstName: "Apu",
-
   lastName: "saha",
+  company: "mash connect",
 };
