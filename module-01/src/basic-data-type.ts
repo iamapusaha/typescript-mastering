@@ -20,3 +20,11 @@ const trueFalse = [true, false, true, false];
 
 const friendsList: [string, string, string] = ["batas", "Akash", "sakib"];
 friendsList[0] = "5555";
+
+const customerName: {
+  firstName: string;
+  lastName: string;
+} = {
+  firstName: "Apu",
+  lastName: "saha",
+};
