@@ -21,13 +21,18 @@ const trueFalse = [true, false, true, false];
 const friendsList: [string, string, string] = ["batas", "Akash", "sakib"];
 friendsList[0] = "5555";
 
-const customerName: {
+const customer: {
   firstName: string;
   middleName?: string; //optional type
   lastName: string;
   company: "mash connect"; //type ---> literal types
+  readonly position: string;
 } = {
   firstName: "Apu",
   lastName: "saha",
   company: "mash connect",
+  position: "web developer",
 };
+
+// customer.company = "apple";
+customer.position = "digital marketer";
