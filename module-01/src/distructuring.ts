@@ -19,5 +19,6 @@
 
   const myFriends: string[] = ["akash", "batas", "kajol", "mahti"];
 
-  const [a, b, x, ...rest] = myFriends;
+  const [a, b, x, ...y] = myFriends;
+  console.log(a, b, x, y);
 }
