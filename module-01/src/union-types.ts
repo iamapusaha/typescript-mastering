@@ -1,4 +1,7 @@
 type FrontendDeveloper = "fokiraDeveloper" | "expreinessDeveloper";
+type BackendDeveloper = FrontendDeveloper | "withHeavyknowgeofbackend";
+
+const selfDeveloper: BackendDeveloper = "withHeavyknowgeofbackend";
 
 const pHeroMake: FrontendDeveloper = "expreinessDeveloper";
 
