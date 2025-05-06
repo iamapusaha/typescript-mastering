@@ -11,8 +11,9 @@
   type FullStackDeveloper = FrontendDeveloper & BackendDeveloper;
 
   const developer: FullStackDeveloper = {
-    skills: ["html", "css", "js", "react", "nextjs", "nodejs"],
+    skills: ["html", "css", "js", "react", "nextjs", "nodejs", "express"],
     desigination1: "frontendDeveloper",
     desigination2: "backendDeveloper",
   };
+  console.log(developer);
 }
